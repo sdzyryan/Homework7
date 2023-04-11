@@ -8,6 +8,7 @@ public class Main {
         task6();
         task7();
         task8();
+        task9();
     }
 
     public static void task1 () {
@@ -119,11 +120,28 @@ public class Main {
         int nowYear = 2023;
         int startYear = nowYear - 200;
         int finishYear = nowYear + 100;
+        int year = startYear;
 
-        for (int year = startYear; year < finishYear; year ++) {
+        for (; year < finishYear; year++) {
             if (year % 79 ==0) {
                 System.out.println(year);
             }
         }
     }
+
+    public static void task9 () {
+        System.out.println("Задача 8.1");
+
+        int nowYear = 2023;
+        int startYear = nowYear - 200;
+        int finishYear = nowYear + 100;
+        int year = 0;
+        while (year < finishYear) {
+                if (year > startYear) {
+                System.out.println(year);
+            }
+            year = year + 79;
+        }
+    }
+
 }
