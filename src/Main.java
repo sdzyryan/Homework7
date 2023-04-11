@@ -130,7 +130,7 @@ public class Main {
     }
 
     public static void task9 () {
-        System.out.println("Задача 8.1");
+        System.out.println("Задача 8.2");
 
         int nowYear = 2023;
         int startYear = nowYear - 200;
